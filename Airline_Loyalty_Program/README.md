@@ -2,42 +2,88 @@
 
 ## 1. Project Overview
 
-This Power BI dashboard explores airline loyalty program performance, including member participation, flight activity, loyalty points, rewards redemption, and customer lifetime value. It provides interactive views to help understand customer engagement and loyalty program activity.
+This project uses Microsoft Power BI to analyze an airline loyalty program, focusing on customer segmentation, member engagement, loyalty points, rewards activation, and customer retention.
 
-## 2. Key Analysis Areas
+The dashboard transforms customer and flight activity data into interactive visualizations to help identify valuable customer segments, understand loyalty behavior, and develop targeted marketing and retention strategies.
 
-- **Loyalty Program Overview:** Examine member counts and other available program indicators.
-- **Member Engagement:** Analyze flying members and flight activity.
-- **Points Analysis:** Explore loyalty points earned and redeemed.
-- **Rewards Redemption:** Compare points earned with points redeemed.
-- **Travel Activity:** Examine flight counts and distance travelled.
-- **Customer Lifetime Value:** Review average customer lifetime value (CLV).
-- **Customer Profile:** Explore available demographic categories, such as province, education, and gender.
-- **Loyalty Card Analysis:** Compare customer activity across loyalty card categories.
-- **Cancellations:** Examine recorded flight cancellation indicators, where available.
+## 2. Dashboard Pages
 
-## 3. Tools and Technologies
+### Customer Segments
+- Analyze total members and total flight bookings.
+- Explore bookings per member across education and other customer segments.
+- Compare customer profiles by province, gender, marital status, income band, and loyalty card.
+- Examine average customer lifetime value (CLV) across relevant customer groups.
+
+### Loyalty Health
+- Review total members and flight bookings.
+- Compare bookings per member across loyalty card categories.
+- Analyze recorded cancellation indicators and monthly membership cancellation trends.
+- Identify loyalty categories that may require additional attention.
+
+### Reward Strategy
+- Analyze total loyalty points earned and redeemed.
+- Compare points activity across loyalty card categories.
+- Examine eligible reward members and reward group classifications.
+- Explore reward activation opportunities and suggested reward actions.
+
+### Retention
+- Identify members with weak engagement.
+- Analyze high-value members with weaker engagement.
+- Compare engagement patterns across education, province, and loyalty card categories.
+- Support targeted retention initiatives based on customer activity and lifetime value.
+
+### Marketing Decision
+- Explore customer segments for targeted loyalty campaigns.
+- Review value-retention opportunities for high-value, weak-engagement members.
+- Identify reward activation opportunities for members without recorded points redemption.
+- Support onboarding and engagement initiatives for newly enrolled members.
+
+## 3. Key Performance Indicators
+
+The dashboard includes measures such as:
+
+- Total Members
+- Total Flight Bookings
+- Bookings per Member
+- Average Customer Lifetime Value (CLV)
+- Total Points Earned
+- Total Points Redeemed
+- Redeemed-to-Earned Ratio
+- Redeeming Member Rate
+- Weak Engagement Members
+- Weak Engagement Rate
+- High-Value Weak Members
+- Eligible Reward Members
+- Recorded Cancellation Share
+
+## 4. Tools and Technologies
 
 - Microsoft Power BI
 - Power Query
 - DAX measures
-- Data modeling and interactive visualizations
+- Data modeling
+- Interactive charts, cards, and filters
 
-## 4. How to Use the Dashboard
+## 5. How to Use the Dashboard
 
-1. Download the Power BI file from this repository.
-2. Open it using Microsoft Power BI Desktop.
-3. Navigate through the report sections and use the available filters to explore loyalty, travel, and customer patterns.
+1. Download the Power BI report from this repository.
+2. Open the `.pbix` file using Microsoft Power BI Desktop.
+3. Navigate through the five report pages.
+4. Use the available visuals and filters to explore customer segments, loyalty health, rewards, retention, and marketing opportunities.
 
-## 5. Project File
+## 6. Project File
 
-`Group_23_Airline_Loyalty_Program.pbix`
+`Group 23_Airline_Loyalty_Program_Analysis_Dashboard_Updated.pbix`
 
-## 6. Purpose
+## 7. Project Objective
 
-The dashboard supports analysis of loyalty program participation, rewards activity, and customer engagement to help identify areas for further investigation.
+The objective is to use customer and flight activity data to understand loyalty program performance, identify engagement and retention opportunities, and support data-driven marketing decisions.
 
-## 7. Author
+## 8. Author
 
 **Krishna Agrawal**  
 PGDM — Jaipuria Institute of Management, Indore
+
+## 9. Data Note
+
+The report includes a snapshot dated 31 December 2018. Interpret metrics according to the dashboard's filters, measure definitions, and reporting period. Recorded cancellations and points redemption should not be interpreted as complete measures of customer behavior without considering the underlying data definitions.
